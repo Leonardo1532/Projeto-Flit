@@ -1,0 +1,163 @@
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    height: 10vh;
+    background-color: #042940;
+}
+
+.logoFlit {
+    margin-left: 3.5vw;
+    height: 9.5vh;
+    width: 8vw;
+}
+
+.links {
+    width: 86vw;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: right;
+}
+
+.headerPart {
+    margin-right: 3.7vw;
+    font-size: 3.2vh;
+    color: white;
+    font-family: cursive;
+}
+
+.content {
+    row-gap: 0.8vh;
+    column-gap: 0.8vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #042940;
+}
+
+.conteiner {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 30.5vw 30.5vw 30.5vw;
+    grid-template-rows: 42.5vh 42.5vh;
+    row-gap: 2vh;
+    column-gap: 1.5vw;
+    margin-bottom: 2vh;
+}
+
+.posicao1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.posicao2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.posicao3 {
+    grid-column: 3 / 3;
+    grid-row: 1 / 2;
+}
+
+.posicao4 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+}
+
+.posicao5 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+}
+
+.posicao6 {
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+}
+
+.subConteiner {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: start;
+    background-color: white;
+    width: 30.5vw;
+    height: 42.5vh;
+    grid-template-columns: 13vw 13vw;
+    grid-template-rows: 8vh 22vh;
+    column-gap: 0.5vw;
+    row-gap: 1vh;
+}
+
+.titleCard {
+    grid-column: 1 / span 2;
+    font-size: 2.8vh;
+    font-weight: 700;
+}
+
+.Card {
+    display: grid;
+    align-items: start;
+    justify-content: start;
+    height: 22vh;
+    width: 13vw;
+    grid-template-columns: 13vw;
+    grid-template-rows: 19vh 3vh;
+}
+
+.posicaoCard1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+}
+
+.posicaoCard2 {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
+
+.Cor1 {
+    background-color: rgba(245, 165, 165, 0.733);
+}
+
+.Cor2 {
+    background-color: rgba(26, 255, 152, 0.574);
+}
+
+.Cor3 {
+    background-color: rgba(66, 161, 255, 0.644);
+}
+
+.Cor4 {
+    background-color: rgba(255, 204, 74, 0.862);
+}
+
+.Cor5 {
+    background-color: rgba(180, 157, 255, 0.754);
+}
+
+.Cor6 {
+    background-color: rgba(251, 255, 34, 0.527);
+}
+
+.listCard {
+    margin-top: 0.5vh;
+    margin-left: 2.8vh;
+    font-size: 1.9vh;
+    font-weight: 500;
+    font-family: sans-serif;
+    list-style-type: disc;
+    line-height: 3.5vh;
+    grid-row: 1 / 2;
+}
+
+.nome {
+    margin-left: 4vw;
+    font-size: 2.2vh;
+    font-family: cursive;
+    grid-row: 2 / 2;
+}
